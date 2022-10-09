@@ -23,9 +23,8 @@ We can see the value of T2 image declines over time:
 
 So according to the function:
 
-$$
-M=M_0*e^{T2/TE}
-$$
+$M=M_0*e^{T2/TE}$
+
 We can use **`Curve fitting`** to find the $T2$ and $M_0$.
 
 ![Curve fitting](images/curve.png)
