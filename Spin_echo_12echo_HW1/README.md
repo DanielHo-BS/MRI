@@ -31,7 +31,7 @@ We can use **`Curve fitting`** to find the $T2$ and $M_0$.
 
 ## Result
 
-Too slow to find all TE of pixel, so we setting a threshold to skip noice of backgraound.
+Too slow to find all TE of pixel, so we setting a threshold to skip noise of backgraound.
 
     If value of pixel < 250:
         skip
