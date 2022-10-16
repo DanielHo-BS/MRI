@@ -33,7 +33,7 @@ We can use **`Curve fitting`** to find the $T2$ and $M_0$.
 
 Too slow to find all TE of pixel, so we setting a threshold to skip noise of backgraound.
 
-    If value of pixel < 250:
+    If value of pixel < 270:
         skip
 
 After scan over images, we can mapping a new image of T2 which the value is TE of pixels from image1 ~ image12.
