@@ -2,6 +2,27 @@
 
 In this homework, we need to find the **TE** of each pixel from T2 image.
 
+## Install packages
+Before starting, need to **install packages** of python.
+
+Install in Terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+* `pydicom`: To read DCM file
+* `numpy` and `scipy`: To calculate
+* `matplotlib`: To plot the image 
+
+## Run 
+
+Run `Python` in Terminal:
+
+```bash
+python ./HW1.py
+```
+
 ## DCM
 
 First, we need to read the `DCM` file to get information of T2 image.  
