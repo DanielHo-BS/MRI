@@ -23,9 +23,9 @@ $M_{xy}=Mz*sin\alpha$
 
 ### **Relaxation**
 
-$M_{z}=1+(M_z-1)*e(-\frac{TR}{T1})$
+$M_{z}=1+(M_z-1) \times e^{-\frac{TR}{T1}}$
 
-$M_{xy}=M_{xy}*e(-\frac{TR}{T2^*})$
+$M_{xy}=M_{xy} \times e^{-\frac{TR}{T2^\ast}}$
 
 ### **Iteration**
 
@@ -40,7 +40,8 @@ After times of RF excitation, $M_z$ and $M_{xy}$ will be stable.
 We have two tissues, that means there are two T1 value: **1000** and **1100** ms.
 
 By the equation:
-$M\propto(\frac{(1-e^{-TR/T1})*sin\alpha}{1-e^{-TR/T1}*cos\alpha})e^{-TE/T2^*}$
+
+$M\propto(\frac{(1-e^{-TR/T1}) \times sin\alpha}{1-e^{-TR/T1} \times cos\alpha})\times e^{-TE/T2^\ast}$
 
 We can use `difference of number two` to find the angle of maximum brightness between two tissues.
 
