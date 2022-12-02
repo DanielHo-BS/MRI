@@ -26,7 +26,7 @@ Load the file ``HW3.mat`` in SPM12.
 Steps:
 
 * read T1 and fMRI(EPI) files: DICOM to nil
-* Slice Timeing
+* Slice Timing
 * Realign: Estimate & Reaslice
 * Coregister: Estimate
 * Normalise: Estimate and Write
