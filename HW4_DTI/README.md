@@ -6,12 +6,56 @@
 
 除此之外對資料一無所知。請幫助湯姆進行分析。參考講義產出相關分析結果。
 
-期末報告時間：
+## Diffusion-weighted Image
 
-12/26
+$𝑆={𝑆_0} 𝑒^{−𝑏𝐷}$
 
-ppt上傳期限:
+$𝑏= \gamma ^2 G^2 \delta^2 (\Delta−\delta/3)$
 
-12/28
+![image](images/data.png)
+
+### Diffusion Tensor Imaging
+
+![image](images/DTI.png)
+
+### Fractional Anisotropy
+
+$𝐹𝐴=\sqrt{\frac{1}{2}*\frac {{(λ_1−λ )^2+(λ_2−λ)^2+(λ_3−λ)^2}}{λ_1^2+λ_2^2+λ_3^2}}  $
+
+### Mean diffusivity
+
+$𝑀𝐷=\frac{λ_1+λ_2+λ_3}{3}$
+
+### Axial Diffusivity
+
+$𝐴𝐷=λ_1$
+### Radial diffusivity
+
+$𝑅𝐷=\frac{λ_2+λ_3}{2}$
+
+## [Coding](HW4.ipynb)
+
+Using the ``python`` to coding.
+
+* DIPY
+* numpy
+* matplotlib
+* scipy
+
+## Result
+
+![image](images/result.png)
+
+![image](images/HW4s.png)
+
+![image](images/HW4-colorbar-adjust.jpg)
+
+![image](images/HW4-colorbar.jpg)
+
+## Discussion
+
+* Diffusion-weighting gradients can lead to eddy currents  artifacts
+* Denoise using Marcenko-Pastur PCA algorithm
+* Kurtosis Tensor Model
 
 ## [Dataset](https://mailntustedutw-my.sharepoint.com/:u:/g/personal/m11107309_ms_ntust_edu_tw/EfWzul-cjvFAqFZ0voL9DfMBlg3hCM0WFmT__we8HsN64A?e=aR90gY)
