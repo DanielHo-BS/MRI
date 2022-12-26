@@ -8,6 +8,6 @@ Here put some data and HWs of MRI.
 
 ## [HW3 - fMRI](HW3_fMRI)
 
-## [HW4 - DTI](HW3_DTI)
+## [HW4 - DTI](HW4_DTI)
 
 ## [PDF](https://mailntustedutw-my.sharepoint.com/:f:/g/personal/m11107309_ms_ntust_edu_tw/EoJJgFDlW8tAs4ds6fRrExIBzdJ-xoO1sG3eZhXO2vBnyQ?e=LbS2xv)
