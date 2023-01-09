@@ -6,7 +6,7 @@ In this homework, we will discuss three topics.
 * The angle of maximum brightness between two tissues
 * The subcortical volumes and Correlation
 
-## **Mxy and Mz**
+## [**Mxy and Mz**](HW2_1.m)
 
 Using the **``Matlab``**.
 
@@ -37,7 +37,7 @@ After times of RF excitation, $M_z$ and $M_{xy}$ will be stable.
 
 ![M_xy stable](images/HW2.1.2.jpg)
 
-## **The angle of maximum brightness between two tissues**
+## [**The angle of maximum brightness between two tissues**](HW2_2.m)
 
 Using the **``Matlab``**.
 
@@ -51,7 +51,7 @@ We can use `difference of number two` to find the angle of maximum brightness be
 
 ![maximum difference](images/HW2.2.jpg)
 
-## **The subcortical volumes and Correlation**
+## [**The subcortical volumes and Correlation**](HW2.ipynb)
 
 Using the **``python``**.
 

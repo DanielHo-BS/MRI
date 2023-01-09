@@ -10,4 +10,14 @@ Here put some data and HWs of MRI.
 
 ## [HW4 - DTI](HW4_DTI)
 
+## Installation
+
+python>=3.7
+
+```bash
+git clone https://github.com/DanielHo-BS/MRI.git
+cd MRI
+pip install requirements.txt
+```
+
 ## [PDF](https://mailntustedutw-my.sharepoint.com/:f:/g/personal/m11107309_ms_ntust_edu_tw/EoJJgFDlW8tAs4ds6fRrExIBzdJ-xoO1sG3eZhXO2vBnyQ?e=LbS2xv)

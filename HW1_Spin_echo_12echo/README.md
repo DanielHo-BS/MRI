@@ -1,4 +1,4 @@
-# MRI - HW1
+# [MRI - HW1](HW1.ipynb)
 
 In this homework, we need to find the **TE** of each pixel from T2 image.
 

@@ -1,4 +1,4 @@
-# HW4-DTI
+# [HW4-DTI](HW4.ipynb)
 
 有一天來自大華醫院的王醫生傳來一份DICOM資料，「湯姆，你能否幫忙分析一下DTI資料。」之後傳來了"DICOM_T1_DTI_dtionly.zip"。
 
